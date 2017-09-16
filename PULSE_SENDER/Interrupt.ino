@@ -1,3 +1,5 @@
+//Original work from https://github.com/EnvironmentMonitor/Pulse-Sensor-ESP8266-ADC0
+
 volatile int rate[10];                    // array to hold last ten IBI values
 volatile unsigned long sampleCounter = 0; // used to determine pulse timing
 volatile unsigned long lastBeatTime = 0;  // used to find IBI
